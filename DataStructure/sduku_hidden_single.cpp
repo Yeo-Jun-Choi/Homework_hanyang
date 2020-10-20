@@ -49,7 +49,7 @@ int main() {
 		naked_single(sduku, stack, top, 9);
 		hidden_single(sduku, stack, top, 9);
 		if (x == top) {
-			cout << "naked single, hidden single·Î´Â ½ºµµÄí °á°ú¸¦ ³¾ ¼ö ¾ø½À´Ï´Ù." << endl;
+			cout << "naked single, hidden singleë¡œëŠ” ìŠ¤ë„ì¿  ê²°ê³¼ë¥¼ ë‚¼ ìˆ˜ ì—†ìŠµë‹ˆë‹¤." << endl;
 			sduku_print(sduku, 9);
 			return 0;
 		}
