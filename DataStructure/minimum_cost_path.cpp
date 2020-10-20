@@ -104,11 +104,11 @@ int print(vector<vector<int>> cost, int path[][5], int size) {
 			solution = k;
 		}
 	}
-	cout << "ÃÖ¼Òºñ¿ëÀÇ ¼øÈ¯·Î´Â ";
+	cout << "ìµœì†Œë¹„ìš©ì˜ ìˆœí™˜ë¡œëŠ” ";
 	for (int i = 0; i < size; i++) {
 		cout << path[s][i] + 1 << " ";
 	}
-	cout << s + 1 << "ÀÌ°í, ÃÖ¼Òºñ¿ëÀº " << solution << "ÀÔ´Ï´Ù." << endl;
+	cout << s + 1 << "ì´ê³ , ìµœì†Œë¹„ìš©ì€ " << solution << "ìž…ë‹ˆë‹¤." << endl;
 
 	return 0;
 }
